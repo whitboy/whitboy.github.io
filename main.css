@@ -1,0 +1,272 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+ #container {
+  max-width: 960px;
+  width: 70%;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+body {  
+font-family: 'Indie Flower', cursive;
+font-size: 62.5%; 
+}
+
+.main-nav {
+  margin: 20px 0 8px 0;
+  padding-top: 20px; 
+}
+
+.main-nav li {
+  display: inline-block;
+  width: 24%;
+  font-size: 24px;
+  text-align: center;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  color: red;
+  padding: 0.2em;
+}
+
+.main-nav li a:hover {
+ text-decoration: underline;
+} 
+
+.main-nav ul li .current {
+  color: blue;
+} 
+
+#banner {
+  width: 100%;
+  display: block;
+  background: #000;
+  height: 150px;
+  margin-top: 30px;
+  }
+
+  img {
+    display: block;
+    border: none;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+
+  #band-pic {
+    width: 100%;
+    display: block;
+  }
+
+  #band-pic img {
+    width: 100%;
+  }
+
+
+
+#primary li {
+  font-size: 2.5em;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 15px;
+  color: white;
+}
+
+#column {
+  width: 100%;
+  float: left;
+}
+
+#column iframe {
+  display: inline-block;
+  float: left;
+  width: 46%;
+  margin: 2%;
+}
+
+#background {
+  width: 100%;
+}
+
+#statement {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#statement h1 {
+ color: red;
+ font-size: 30px;
+ text-align: center;
+}
+
+#about {
+  width: 96%;
+  
+  margin: 0 2% 20px 2%;
+}
+
+#about h2 {
+ color: red;
+ font-size: 20px;
+ text-align: center;
+ padding: 0 10px 0 10px 0;
+}
+
+#line-up {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+
+#line-up li {
+  display: block;
+  color: red;
+  width: 100%;
+  margin-bottom: 5px;
+  font-size: 1.6em;
+  text-align: center;
+} 
+
+ #contact {
+  width: 100%;
+  float: left;
+}
+
+#contact img {
+display: inline-block;
+  float: left;
+  width: 48%;
+  margin: 1%;
+}
+
+
+#media {
+  width: 100%;
+  height: 80px;
+}
+
+
+#media li {
+  display: block;
+  color: blue;
+  width: 100%;
+  font-size: 1.6em;
+  text-align: center;
+  padding-bottom: 10px;
+} 
+
+#media a {
+  color: blue;
+  text-decoration: none;
+}
+
+#media a:hover {
+  color: red;
+}
+
+
+#footer {
+  width: 100%;
+  height: 2em; 
+  background-color: black;
+  clear: both;
+  margin-top: 8px;
+}
+
+#footer p {
+  font-family: 'sans-serif,serif';
+  padding-top: 0.2em;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+}
+
+
+@media only screen and (max-width: 850px)  {
+
+    .main-nav li a {
+    display: block;
+    padding: 5px 0 5px 0;
+    color: red;
+   } 
+
+    .main-nav li {
+      display: block;
+      font-size: 18px;
+      height: 25px;
+      width: 100%;
+      margin: 3px 0 3px 0;
+    }
+      
+
+#primary li {
+  font-size: 1.7em;
+  margin-bottom: 8px;
+}
+
+#column iframe {
+  display: block;
+  width: 96%;
+}
+
+#statement h1 {
+  font-size: 2em;
+}
+
+#about h2 {
+  font-size: 16px;
+}
+
+}
+
+  }
